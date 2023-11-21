@@ -1,0 +1,3 @@
+{
+    "/lancamentos/show/:pagina/:limite": "/lancamentos?_page=:pagina&_limit=:limite&_sort=lan_data&_order=desc&_expand=cliente&_expand=conta&lan_excluido="
+}
