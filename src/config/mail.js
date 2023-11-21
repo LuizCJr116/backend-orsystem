@@ -1,13 +1,13 @@
-const configMail={
+const configMail =  {
     host : "smtp.gmail.com",
     port: 465,
     secure: true,
     auth:{
-        user: "projetotcc@gmail.com",
-        pass:"aluno123"
+        user: "orsystem.nao.responda@gmail.com",
+        pass:"lemb hmeg ixgj iwjf"
     },
     default:{
-        from:"no-reply <noreply@acompanhatcc.com.br>"
+        from:"orsystem.nao.responda@gmail.com"
     }
 };
 

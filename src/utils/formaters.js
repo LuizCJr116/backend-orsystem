@@ -6,7 +6,7 @@ const dateFormatter = new Intl.DateTimeFormat('pt-BR', {
   })
   
   const validDate = (date) => {
-    const _date = new Date(date).toString()
+    const _date = new Date(date)
     return _date === 'Invalid Date' ? false : true
   }
   

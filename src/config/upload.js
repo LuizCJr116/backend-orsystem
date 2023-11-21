@@ -1,18 +1,19 @@
-//caminho das imagens
-const multer = require("multer");
-const path = require("path");
+const multer = require('multer')
+const path = require('path')
 
-const tmpFolder = path.resolve(__dirname,"..");
-const uploadFolder = path.resolve(tmpFolder, "images");
+const tmpFolder = path.resolve(__dirname, '..')
+
+const uploadFolder = path.resolve(tmpFolder, 'images')
 
 const storage = multer.diskStorage({
-    //onde vou gravar a foto
-    destination: function(req, file, cb) {
-        cb(null, uploadFolder);
+    destination: function (req, file, callback) {
+        callback(null, uploadFolder)
     },
-    filename: function (req, file, cb){
-        cb(null, Date.now() +"-"+ file.originalname);
-    }
-});
+    filename(req, file, callback) {
+        const fileHash = Date.now()
+        const fileName = `${fileHash}-imagem-${file.originalname}`
+        return callback(null, fileName)
+    },
+})
 
-module.exports={tmpFolder, uploadFolder, storage};
+module.exports = { tmpFolder, uploadFolder, storage }
