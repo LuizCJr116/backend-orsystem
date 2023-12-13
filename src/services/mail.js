@@ -63,9 +63,9 @@ class MailService {
               margin-right: auto;
             "
           >
-            <h1 style="font-family: Century Gothic; font-size: 1.6rem;color: black;">
-              Olá ${usu_nome}...
-            </h1>
+          <h1 style="font-family:Century Gothic;font-size:1.6rem;color:black;display: block;overflow: hidden;text-overflow: ellipsis;">
+          Olá ${usu_nome}.
+        </h1>
             <br />
             <p
               style="
@@ -200,9 +200,9 @@ class MailService {
               margin-right: auto;
             "
           >
-            <h1 style="font-family: Century Gothic; font-size: 1.6rem;color: black;">
-              Olá ${usu_nome}...
-            </h1>
+          <h1 style="font-family:Century Gothic;font-size:1.6rem;color:black;display: block;overflow: hidden;text-overflow: ellipsis;">
+          Olá ${usu_nome}.
+        </h1>
             <br />
             <p
               style="
@@ -337,9 +337,9 @@ class MailService {
               margin-right: auto;
             "
           >
-            <h1 style="font-family: Century Gothic; font-size: 1.6rem;color: black;">
-              Olá ${usu_nome}...
-            </h1>
+          <h1 style="font-family:Century Gothic;font-size:1.6rem;color:black;display: block;overflow: hidden;text-overflow: ellipsis;">
+          Olá ${usu_nome}.
+        </h1>
             <br />
             <p
               style="
@@ -474,8 +474,8 @@ class MailService {
             margin-right: auto;
           "
         >
-          <h1 style="font-family: Century Gothic; font-size: 1.6rem;color: black;">
-            Olá ${usu_nome}...
+          <h1 style="font-family:Century Gothic;font-size:1.6rem;color:black;display: block;overflow: hidden;text-overflow: ellipsis;">
+            Olá ${usu_nome}.
           </h1>
           <br />
           <p
